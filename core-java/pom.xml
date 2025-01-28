@@ -1,14 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-
+  
   <modelVersion>4.0.0</modelVersion>
-
+  
   <groupId>com.java</groupId>
-  <artifactId>map-struct</artifactId>
+  <artifactId>core-java</artifactId>
   <packaging>jar</packaging>
   <version>1.0.0</version>
   
-  <name>map-struct</name>
+  <name>core-java</name>
   <url>http://maven.apache.org</url>
   
   <properties>
@@ -40,7 +40,7 @@
     <groupId>org.projectlombok</groupId>
     <artifactId>lombok</artifactId>
     <version>1.18.34</version>
-<!--    <scope>provided</scope>-->
+    <scope>provided</scope>
 </dependency>
 
 <dependency>
@@ -73,16 +73,8 @@
 			<version>3.12.1</version>
 			<configuration>
 				<release>21</release>
-				<annotationProcessorPaths>
-                  <path>
-                     <groupId>org.mapstruct</groupId>
-                     <artifactId>mapstruct-processor</artifactId>
-                     <version>1.5.0.Beta1</version>
-                  </path>
-               </annotationProcessorPaths>
 			</configuration>
 		</plugin>
 	</plugins>
 </build>
-
 </project>
